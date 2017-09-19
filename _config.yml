@@ -140,6 +140,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /theme-files
 keep_files:
   - .git
   - .svn
