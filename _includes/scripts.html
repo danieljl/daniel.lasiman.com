@@ -11,10 +11,10 @@
   <script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
 {% endif %}
 
-{% include analytics.html %}
-{% include /comments-providers/scripts.html %}
-
 {% if page.mathjax %}
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
 {% endif %}
+
+{% include analytics.html %}
+{% include /comments-providers/scripts.html %}
