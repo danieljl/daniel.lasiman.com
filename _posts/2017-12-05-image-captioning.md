@@ -381,7 +381,7 @@ def categorical_accuracy_with_variable_timestep(y_true, y_pred):
 
 You might think that categorical accuracy is not a good metric for image captioning problems since if the model produces a very similar caption to the correct one but is not arranged with it, the accuracy will be very low. The better metrics would be BLEU, METEOR, and CIDEr which were mentioned before in [**Sneak Peek**](#sneak-peek) section.
 
-You are right. However, those metrics are computationally expensive because of the need of [inference](#inference). Although categorical accuracy is not very accurate in assessing the model, the fact that it is quite correlated with those metrics makes it reasonable to use in the training phase.
+You are right. However, those metrics are computationally expensive because of the need of [inference](#inference-phase). Although categorical accuracy is not very accurate in assessing the model, the fact that it is quite correlated with those metrics makes it reasonable to use in the training phase.
 
 ### Optimization
 
