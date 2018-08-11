@@ -5,9 +5,8 @@ header:
   teaser: /assets/by-post/image-captioning/teaser.jpg
 mathjax: true
 read_time: false
+toc: true
 ---
-
-{% include toc %}
 
 **Note:** You can get the source code on [the project's repository](https://github.com/danieljl/keras-image-captioning).
 {: .notice--warning}
